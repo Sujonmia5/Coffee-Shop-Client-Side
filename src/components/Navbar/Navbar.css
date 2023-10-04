@@ -1,0 +1,46 @@
+.common li {
+    position: relative;
+    transition: all 100ms ease;
+}
+
+.common li a {
+    @apply text-sm lg:text-base;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2ch;
+    z-index: 100;
+}
+
+.common li a::after {
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 10px;
+    left: 5px;
+    top: 50%;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 100%;
+    background: var(--primary-color);
+    z-index: 1;
+    transform: translateY(-50%);
+    transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.common li:hover a::after {
+    position: absolute;
+    content: '';
+    left: -12px;
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+    border-radius: 100%;
+}
+
+.nav-item-left-side li:hover {
+    color: var(--primary-color);
+}
+
+.nav-item-right-side li:hover {
+    color: var(--primary-color);
+}
