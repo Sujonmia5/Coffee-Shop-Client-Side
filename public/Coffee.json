@@ -1,0 +1,34 @@
+{
+    "menu": [
+        {
+            "name": "Espresso",
+            "description": "A shot of pure espresso goodness.",
+            "price": 2.50
+        },
+        {
+            "name": "Cappuccino",
+            "description": "Espresso with steamed milk and foam.",
+            "price": 4.00
+        },
+        {
+            "name": "Latte",
+            "description": "Espresso with steamed milk.",
+            "price": 4.50
+        },
+        {
+            "name": "Mocha",
+            "description": "Espresso with chocolate and steamed milk.",
+            "price": 4.75
+        },
+        {
+            "name": "Americano",
+            "description": "Diluted espresso for a milder taste.",
+            "price": 3.00
+        },
+        {
+            "name": "Cold Brew",
+            "description": "Chilled coffee brewed for 12 hours.",
+            "price": 3.75
+        }
+    ]
+}

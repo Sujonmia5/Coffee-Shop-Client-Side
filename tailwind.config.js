@@ -10,6 +10,12 @@ export default {
         'nav-pattern': "url('/src/assets/more/15.jpg')",
         'home-bg': "url('/src/assets/bg/download.jpg')",
         'bg-shap': "url('/src/assets/bg/Shap.png')",
+      },
+      colors: {
+        'primary': '#C7A17A',
+        'secondary': '#32323D',
+        'dark': '#13131A',
+
       }
     },
     backgroundSize: {

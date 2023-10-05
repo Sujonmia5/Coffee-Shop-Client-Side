@@ -22,7 +22,6 @@
 }
 
 .hero-content {
-    width: 691px;
     color: #fff;
     z-index: 900 !important;
 }
@@ -36,6 +35,120 @@
 
 .btn {
     width: 200px;
-    height: 60px;
-    border: 1px solid;
+    height: 45px;
+    border-radius: 5px;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.btn a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 99;
+    text-align: center;
+    background: transparent;
+}
+
+.btn-pri {
+    background-color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-pri::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 45px;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background: var(--gray-color);
+    overflow: hidden;
+    border-radius: 2px;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.btn-pri:hover {
+    background: transparent;
+    border-color: var(--gray-color);
+}
+
+.btn-pri:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.btn-sec {
+    border: 3px solid var(--gray-color);
+    transition: all 0.4s ease-in-out;
+    overflow-x: hidden;
+}
+
+.btn-sec::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: var(--primary-color);
+    transition: all 0.4s ease-in-out;
+    border-radius: 2px;
+}
+
+.btn-sec:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.btn-sec:hover {
+    border-color: var(--primary-color);
+}
+
+.card-future::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 4px;
+    left: 0;
+    top: 0;
+    background: var(--primary-color);
+    z-index: 40;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-future:hover::before {
+    width: 100%;
+}
+
+#content-card {
+    z-index: 50;
+    @apply font-jost;
+}
+
+#content-card span {
+    color: var(--primary-color);
+    @apply font-bebas text-lg font-normal;
+}
+
+.card-future::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* background-image: url('/src/assets/bg/Shap.png'); */
+    background-color: rgba(0, 0, 0, 0.751);
+
+    opacity: bottom 0.2;
 }
