@@ -12,7 +12,7 @@ const HomeMenu = () => {
             })
     }, [])
     return (
-        <div className="max-w-[1400px] p-5 mx-auto text-center">
+        <div className="max-w-[1200px] p-5 mx-auto text-center">
             {/* Home Coffee Menu Item Section */}
 
             <div>
@@ -21,9 +21,9 @@ const HomeMenu = () => {
             </div>
             {/* Coffee Item */}
             <div className="items-center">
-                <div>
+                <div className="max-w-[1245px] mx-auto md:grid grid-cols-2 gap-2">
                     {
-                        CoffeeItems.map((items, i) => <CoffeeCard key={i} />)
+                        CoffeeItems.map((item, i) => <CoffeeCard item={item} key={i} />)
                     }
                 </div>
             </div>

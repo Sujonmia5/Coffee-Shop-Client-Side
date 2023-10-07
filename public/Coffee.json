@@ -3,31 +3,37 @@
         {
             "name": "Espresso",
             "description": "A shot of pure espresso goodness.",
+            "coffee_img": "https://i.ibb.co/2twT3XC/Rectangle-11.png",
             "price": 2.50
         },
         {
             "name": "Cappuccino",
             "description": "Espresso with steamed milk and foam.",
+            "coffee_img": "https://i.ibb.co/wQK6S5R/Rectangle-12.png",
             "price": 4.00
         },
         {
             "name": "Latte",
             "description": "Espresso with steamed milk.",
+            "coffee_img": "https://i.ibb.co/D5NfyhR/Rectangle-13.png",
             "price": 4.50
         },
         {
             "name": "Mocha",
             "description": "Espresso with chocolate and steamed milk.",
+            "coffee_img": "https://i.ibb.co/k9KBjL3/Rectangle-14.png",
             "price": 4.75
         },
         {
             "name": "Americano",
             "description": "Diluted espresso for a milder taste.",
+            "coffee_img": "https://i.ibb.co/4N7z54R/Rectangle-15.png",
             "price": 3.00
         },
         {
             "name": "Cold Brew",
             "description": "Chilled coffee brewed for 12 hours.",
+            "coffee_img": "https://i.ibb.co/Hnj3C2Q/Rectangle-16.png",
             "price": 3.75
         }
     ]

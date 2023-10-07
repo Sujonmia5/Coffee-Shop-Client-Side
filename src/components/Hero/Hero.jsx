@@ -1,6 +1,7 @@
 // import { FaLinkedin, FaSquareFacebook, FaSquareXTwitter } from 'react-icons/fa'
 import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import PrimaryButton from "../utilities/Button/PrimaryButton";
 
 const Hero = () => {
     return (
@@ -14,10 +15,8 @@ const Hero = () => {
                     <p className="text-lg font-jost tracking-wider capitalize leading-8">The coffee is brewed by first roasting the green coffee beans over hot
                         <br />
                         coals in a brazier. given an opportunity to sample.</p>
-                    <div className="space-y-5 sm:flex gap-5 mt-5 relative">
-                        <button className="btn-pri btn font-jost mt-5">
-                            <a href="/">Testy Coffee</a>
-                        </button>
+                    <div className="space-y-5 space-x-2 sm:space-y-0 sm:flex items-center gap-5 mt-5 relative">
+                        <PrimaryButton title={'Testy Coffee'} />
                         <button className="btn btn-sec font-jost">
                             <a href="">Read more</a>
                         </button>

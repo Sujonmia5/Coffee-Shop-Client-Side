@@ -14,8 +14,8 @@ const OurHistory = () => {
                             <h1 className="text-[55px] font-bebas mb-5 mt-4 uppercase">
                                 CREATE A NEW STORY WITH US
                             </h1>
-                            <p className="capitalize text-justify text-lg font-jost mb-4">Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibhtincidunt.</p>
-                            <p className="capitalize text-justify text-lg font-jost mb-4">Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat.</p>
+                            <p className="capitalize sm:text-justify text-lg font-jost mb-4">Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibhtincidunt.</p>
+                            <p className="capitalize sm:text-justify text-lg font-jost mb-4">Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat.</p>
                         </div>
                     </div>
                 </div>
