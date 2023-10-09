@@ -21,10 +21,9 @@ const DiscoverHero = () => {
                             </span>
                         </figure>
                     </div>
-                    <div className="min-[1200px]:w-1/2">
-                        <h1 className="text-6xl font-bebas">COFFEE MACHINE, BUY FOR HOME</h1>
-                        <p className="font-jost text-lg my-10">Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis.
-                            <br />
+                    <div className="min-[1200px]:w-1/2 mb-5">
+                        <h1 className="text-4xl sm:text-6xl font-bebas">COFFEE MACHINE, BUY FOR HOME</h1>
+                        <p className="font-jost text-lg my-5 md:my-10">Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis.
                             <br />
                             Aliquam erat volutpat.
                             mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis.</p>

@@ -7,8 +7,7 @@ function Main() {
         <>
             <Navbar />
             <Outlet />
-            <Footer />
-
+            {/* <Footer /> */}
         </>
     )
 }

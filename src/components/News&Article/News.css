@@ -1,0 +1,58 @@
+.blog-bg {
+    background-image: url('/src/assets/bg/footer-3-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image_blog {
+    transition: all 0.3s ease-in-out;
+}
+
+.card_blog:hover .image_blog {
+    transform: scale(1.2);
+}
+
+.link_text a {
+    cursor: text;
+}
+
+.link_text a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.link_text a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.link_text a:hover::after {
+    width: 100%;
+}
+
+.link_text a:hover::before {
+    width: 105px;
+}
+
+.link {
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+
+.link:hover .icon {
+    right: -22px;
+}

@@ -1,0 +1,79 @@
+/* Popular Product CSS */
+.product_Card {
+
+    transition: all 0.3s ease-in-out;
+}
+
+.img-box {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.default {
+    width: auto;
+    height: auto;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.on_hover {
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.product_Card:hover {
+    background: var(--dark-color);
+}
+
+.product_Card:hover .on_hover {
+    display: block;
+    transform: scale(1.01);
+}
+
+.product_Card:hover .default {
+    display: none;
+}
+
+.Product_button {
+    left: 0;
+    right: 0;
+    top: 35px;
+    margin: 0 auto;
+    z-index: 49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.Product_button button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a7a7a7;
+}
+
+.Product_button button:hover {
+    color: #fff;
+    border: 1px solid white;
+}
+
+.product_Card:hover .Product_button {
+    opacity: 1;
+}
+
+.product_Content {
+    width: 100%;
+    height: auto;
+    left: 0;
+    bottom: 0;
+
+}

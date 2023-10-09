@@ -10,8 +10,8 @@ const OurHistory = () => {
                     </div>
                     <div className="px-7 py-10 sm:p-10 md:p-14 xl:p-20 border border-secondary  bg-dark">
                         <div>
-                            <span className="bg-primary px-3 py-1 rounded-md font-young font-light">Our History</span>
-                            <h1 className="text-[55px] font-bebas mb-5 mt-4 uppercase">
+                            <span className="bg-primary px-3 py-1 rounded-md font-young font-light uppercase">Our History</span>
+                            <h1 className="text-4xl sm:text-6xl font-bebas mb-5 mt-4 uppercase">
                                 CREATE A NEW STORY WITH US
                             </h1>
                             <p className="capitalize sm:text-justify text-lg font-jost mb-4">Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibhtincidunt.</p>
