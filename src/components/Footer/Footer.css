@@ -1,0 +1,12 @@
+.social a {
+    border: 1px solid #a7a7a7;
+    padding: 10px;
+    border-radius: 10px;
+    color: #a7a7a7;
+    transition: all 0.3s ease;
+}
+
+.social a:hover {
+    border-color: #fff;
+    color: white;
+}

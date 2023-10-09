@@ -4,8 +4,8 @@
 }
 
 .common li a {
-    @apply text-sm lg:text-base;
-    font-weight: 700;
+    @apply text-sm lg:text-base font-jost;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.2ch;
     z-index: 100;
