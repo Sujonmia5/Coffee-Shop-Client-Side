@@ -3,7 +3,7 @@ const CoffeeCard = ({ item }) => {
 
     const { name, coffee_img, price } = item;
     const fixedPrice = price.toFixed(2)
-    console.log(parseInt(fixedPrice).toFixed(2));
+    // console.log(parseInt(fixedPrice).toFixed(2));
     return (
         <div className="max-w-[622px] h-[90px] my-4 ">
 

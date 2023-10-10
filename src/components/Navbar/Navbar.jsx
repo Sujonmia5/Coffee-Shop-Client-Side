@@ -4,7 +4,7 @@ import { BsFillBasket2Fill } from 'react-icons/bs'
 import './Navbar.css'
 const Navbar = () => {
     return (
-        <div className="h-36 min-[1200px]:h-32 py-3 md:py-6 w-full border-b-[0.1px] border-gray-300 absolute top-0 z-50" >
+        <div className="h-20 min-[1200px]:h-32 py-3 md:py-6 w-full sm:border-b-[0.1px] border-[#a7a7a7] absolute top-0 z-50 " >
             <div className="max-w-[1400px] px-5 mx-auto flex items-center justify-between">
                 <a href='/' className="h-16 w-16 md:h-20 md:w-20 block md:hidden min-[1200px]:block relative mr-7">
                     <figure>

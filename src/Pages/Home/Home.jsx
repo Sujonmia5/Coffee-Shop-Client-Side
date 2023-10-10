@@ -7,8 +7,11 @@ import HomeProduct from '../../components/HomeProduct/HomeProduct';
 import NewsArticle from '../../components/News&Article/News&Article';
 import OurHistory from '../../components/OurHistory/Ourhistory';
 import DiscoverHero from '../../components/discoverHero/DiscoverHero';
+import { DynamicHeroPath } from '../../components/utilities/Function/Function';
 import './Home.css'
+
 const Home = () => {
+
     return (
         <div className=" relative">
             <Hero />

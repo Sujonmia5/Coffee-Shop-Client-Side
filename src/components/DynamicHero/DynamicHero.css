@@ -1,0 +1,17 @@
+.dynamic_hero_bg {
+    background-image: url('/src/assets/bg/1222.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.dynamic_hero_bg::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.498);
+    z-index: 1;
+}

@@ -11,7 +11,7 @@ const FutureSlider = () => {
                     <div id="content-card" className="absolute left-0 right-0 mx-auto top-0  py-10 px-5 sm:px-10 bottom-0">
                         <span className=''>01</span>
                         <h2 className="text-3xl uppercase font-bebas mb-1">Best Coffee flavour</h2>
-                        <p>Curabitur semper erat a lacusey sedn consequat, sit ametey.</p>
+                        <p className="text-lg">Curabitur semper erat a lacusey sedn consequat, sit ametey.</p>
                     </div>
                 </div>
                 <div className="card-future overflow-hidden relative w-auto h-[300px] border-2   border-[#32323D]  rounded">
@@ -21,7 +21,7 @@ const FutureSlider = () => {
                     <div id="content-card" className="absolute left-0 right-0 mx-auto top-0  py-10 px-8 sm:px10 bottom-0">
                         <span className='text'>02</span>
                         <h2 className="text-3xl uppercase font-bebas mb-1">Place to Get Lost</h2>
-                        <p>Curabitur semper erat a lacusey sedn consequat, sit ametey.</p>
+                        <p className="text-lg">Curabitur semper erat a lacusey sedn consequat, sit ametey.</p>
                     </div>
                 </div>
                 <div className="card-future overflow-hidden relative w-auto h-[300px] border-2  border-[#32323D]  rounded">
@@ -31,7 +31,7 @@ const FutureSlider = () => {
                     <div id="content-card" className="absolute left-0 right-0 mx-auto top-0  py-10 px-8 sm:px10 bottom-0">
                         <span className='text'>03</span>
                         <h2 className="text-3xl uppercase font-bebas mb-1">Proper Roasting</h2>
-                        <p>Curabitur semper erat a lacusey sedn consequat, sit ametey.</p>
+                        <p className="text-lg">Curabitur semper erat a lacusey sedn consequat, sit ametey.</p>
                     </div>
                 </div>
             </div>

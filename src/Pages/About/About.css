@@ -1,0 +1,19 @@
+.bg_Cafna_Hero {
+    background-image: url('/src/assets/bg/1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ul_li li .icon,
+.check_li {
+    transition: all 0.4s ease-in-out;
+}
+
+li:hover .check_li {
+    background: var(--dark-color);
+}
+
+li:hover .icon {
+    color: white;
+}

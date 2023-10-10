@@ -1,15 +1,15 @@
-import { FaArrowUp, FaFacebookF, FaLinkedinIn, FaTiktok, FaYoutube } from 'react-icons/fa'
-import { BsFillSendFill } from 'react-icons/bs'
+import { FaFacebookF, FaLinkedinIn, FaTiktok, FaYoutube } from 'react-icons/fa'
+import { BsArrowUpShort, BsFillSendFill } from 'react-icons/bs'
 import { TfiLocationPin, TfiMobile } from 'react-icons/tfi'
 import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="">
+        <div className="bg-black text-white">
             {/* Footer top link */}
             <div className="w-full border-t border-secondary  relative flex justify-center items-center">
                 <a className='relative w-6 h-5' href="#">
-                    <FaArrowUp className='h-12 w-12 p-3 absolute left-0 right-0 mx-auto -top-6 bg-black hover:bg-primary transition-all border border-[#a7a7a7] rounded-full' />
+                    <BsArrowUpShort className='h-12 w-12 p-3 absolute left-0 right-0 mx-auto -top-6 bg-black hover:bg-primary transition-all border border-[#a7a7a7] rounded-full' />
                     <span className='absolute -bottom-10 -left-3 whitespace-nowrap text-[#a7a7a7] hover:text-white'>Go to Top</span>
                 </a>
             </div>
@@ -56,9 +56,9 @@ const Footer = () => {
                     </div>
 
                 </div>
-                <div className='border-t border-secondary mt-10 flex justify-center pt-5'>
+                <div className='border-t border-secondary mt-10 text-center sm:flex justify-center pt-5'>
                     <h1>Copyright by Coffee Shop || 2023</h1>
-                    <h1 className='italic'>Development By <strong className='font-jost text-green-400 italic'>Md Sujon Mia</strong></h1>
+                    <h1 className='italic'>Development By <strong className='font-jost text-green-400 italic transition-all hover:text-green-600'><a href="">Md Sujon Mia</a></strong></h1>
                 </div>
             </div>
         </div>
