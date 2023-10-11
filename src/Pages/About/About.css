@@ -17,3 +17,27 @@ li:hover .check_li {
 li:hover .icon {
     color: white;
 }
+
+
+
+.WC_icon_bg {
+    width: 45px !important;
+    height: 45px !important;
+    position: absolute;
+    bottom: -10px;
+    transform: translateX(40px);
+    transform: translateY(-50%);
+    border-radius: 100%;
+    background: var(--primary-color);
+    opacity: 0.4;
+    transition: all 0.3s ease;
+}
+
+.WC_card:hover .WC_icon_bg {
+    transform: translateX(-20px);
+}
+
+.WC_card:hover .WC_link {
+    background-color: var(--primary-color);
+    color: white;
+}

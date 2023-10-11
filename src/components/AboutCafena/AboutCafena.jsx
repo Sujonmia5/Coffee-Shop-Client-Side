@@ -4,11 +4,11 @@ const AboutCafena = () => {
     return (
         <div className="bg_Cafna_Hero py-10 px-20">
             <div className="flex items-center max-w-[1400px] px-5">
-                <div className="w-1/2 flex justify-center items-center">
+                <div className="w-1/2 relative flex justify-center items-center">
                     <figure>
                         <img src="/src/assets/man/download.png" alt="" />
+                        <img className="absolute -left-5 bottom-0 w-64  h-64" src="/src/assets/more/6.png" alt="" />
                     </figure>
-
                 </div>
                 <div className="w-1/2">
                     <div className="ml-16">
