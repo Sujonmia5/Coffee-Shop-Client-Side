@@ -10,7 +10,7 @@ const About = () => {
 
     const DynamicHeroData = DynamicHeroPath();
     return (
-        <div className="mt-28 sm:pt-40">
+        <div className="mt-28 md:mt-52">
             <DynamicHero Path={DynamicHeroData} />
             <AboutCafena />
             <WCMAbout />

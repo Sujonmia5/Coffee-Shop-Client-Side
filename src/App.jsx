@@ -6,9 +6,11 @@ function App() {
 
   return (
     <>
+
       <RouterProvider router={Route}>
 
       </RouterProvider>
+
     </>
   )
 }

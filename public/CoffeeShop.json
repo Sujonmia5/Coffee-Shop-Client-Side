@@ -7,26 +7,31 @@
                 {
                     "name": "Espresso",
                     "price": 2.50,
+                    "coffee_img": "https://www.kindpng.com/picc/m/297-2971979_splash-coffee-cups-coffee-cup-vector-download-hd.png",
                     "description": "A strong and concentrated coffee shot."
                 },
                 {
                     "name": "Americano",
                     "price": 3.00,
+                    "coffee_img": "https://www.kindpng.com/picc/m/297-2971979_splash-coffee-cups-coffee-cup-vector-download-hd.png",
                     "description": "Espresso diluted with hot water for a milder taste."
                 },
                 {
                     "name": "French Press",
                     "price": 4.00,
+                    "coffee_img": "https://www.kindpng.com/picc/m/297-2971979_splash-coffee-cups-coffee-cup-vector-download-hd.png",
                     "description": "Brewed with a French press for a rich and full-bodied flavor."
                 },
                 {
                     "name": "Pour Over",
                     "price": 4.50,
+                    "coffee_img": "https://www.kindpng.com/picc/m/297-2971979_splash-coffee-cups-coffee-cup-vector-download-hd.png",
                     "description": "Freshly brewed coffee made to order with a pour-over method."
                 },
                 {
                     "name": "Turkish Coffee",
                     "price": 4.50,
+                    "coffee_img": "https://www.kindpng.com/picc/m/297-2971979_splash-coffee-cups-coffee-cup-vector-download-hd.png",
                     "description": "A traditional coffee brewed with finely ground coffee beans and cardamom."
                 }
             ]
@@ -37,26 +42,31 @@
                 {
                     "name": "Cappuccino",
                     "price": 3.50,
+                    "coffee_img": "https://www.kindpng.com/picc/m/297-2971979_splash-coffee-cups-coffee-cup-vector-download-hd.png",
                     "description": "Espresso with steamed milk and foam, topped with cocoa."
                 },
                 {
                     "name": "Latte",
                     "price": 3.50,
+                    "coffee_img": "https://www.kindpng.com/picc/m/297-2971979_splash-coffee-cups-coffee-cup-vector-download-hd.png",
                     "description": "Espresso with a lot of steamed milk, creamy and smooth."
                 },
                 {
                     "name": "Mocha",
                     "price": 4.00,
+                    "coffee_img": "https://www.kindpng.com/picc/m/297-2971979_splash-coffee-cups-coffee-cup-vector-download-hd.png",
                     "description": "Espresso with chocolate and steamed milk, a sweet treat."
                 },
                 {
                     "name": "Flat White",
                     "price": 4.50,
+                    "coffee_img": "https://www.kindpng.com/picc/m/297-2971979_splash-coffee-cups-coffee-cup-vector-download-hd.png",
                     "description": "Espresso with velvety microfoam, a popular Australian coffee."
                 },
                 {
                     "name": "Vienna Coffee",
                     "price": 4.50,
+                    "coffee_img": "https://www.kindpng.com/picc/m/297-2971979_splash-coffee-cups-coffee-cup-vector-download-hd.png",
                     "description": "Black coffee topped with whipped cream and chocolate shavings."
                 }
             ]
@@ -67,26 +77,31 @@
                 {
                     "name": "Iced Coffee",
                     "price": 4.00,
+                    "coffee_img": "https://www.kindpng.com/picc/m/297-2971979_splash-coffee-cups-coffee-cup-vector-download-hd.png",
                     "description": "Chilled coffee served over ice, perfect for a hot day."
                 },
                 {
                     "name": "Caramel Macchiato",
                     "price": 4.50,
+                    "coffee_img": "https://www.kindpng.com/picc/m/297-2971979_splash-coffee-cups-coffee-cup-vector-download-hd.png",
                     "description": "Espresso with caramel, steamed milk, and foam."
                 },
                 {
                     "name": "Affogato",
                     "price": 5.00,
+                    "coffee_img": "https://www.kindpng.com/picc/m/297-2971979_splash-coffee-cups-coffee-cup-vector-download-hd.png",
                     "description": "A scoop of vanilla gelato 'drowned' in a shot of hot espresso."
                 },
                 {
                     "name": "Irish Coffee",
                     "price": 5.50,
+                    "coffee_img": "https://www.kindpng.com/picc/m/297-2971979_splash-coffee-cups-coffee-cup-vector-download-hd.png",
                     "description": "Hot coffee with Irish whiskey, sugar, and cream."
                 },
                 {
                     "name": "Honey Vanilla Latte",
                     "price": 4.50,
+                    "coffee_img": "https://www.kindpng.com/picc/m/297-2971979_splash-coffee-cups-coffee-cup-vector-download-hd.png",
                     "description": "Latte with honey and a hint of vanilla, a delightful sweetness."
                 }
             ]

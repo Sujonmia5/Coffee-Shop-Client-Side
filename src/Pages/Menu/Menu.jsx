@@ -6,7 +6,7 @@ import './Menu.css'
 const Menu = () => {
     const Path = DynamicHeroPath()
     return (
-        <div className='h-screen mt-28 md:mt-52'>
+        <div className='mt-28 md:mt-52'>
             <DynamicHero Path={Path} />
             <MenuItem />
         </div>

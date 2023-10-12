@@ -57,8 +57,8 @@ const Footer = () => {
 
                 </div>
                 <div className='border-t border-secondary mt-10 text-center sm:flex justify-center pt-5'>
-                    <h1>Copyright by Coffee Shop || 2023</h1>
-                    <h1 className='italic'>Development By <strong className='font-jost text-green-400 italic transition-all hover:text-green-600'><a href="">Md Sujon Mia</a></strong></h1>
+                    <h1>Copyright by Coffee Shop  2023 ||</h1>
+                    <h1 className='italic'> Development By <strong className='font-jost text-green-400 italic transition-all hover:text-green-600'><a href="">Md Sujon Mia</a></strong></h1>
                 </div>
             </div>
         </div>

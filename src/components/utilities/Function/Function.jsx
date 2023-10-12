@@ -18,3 +18,24 @@ export const DynamicHeroPath = () => {
     }
     return {}
 }
+
+
+export const FilterData = (CoffeeData, categoryNames = 'all') => {
+    let filterArry = []
+    // console.log(categoryNames);
+    if (categoryNames == 'all') {
+        const name = CoffeeData.filter(data => data.category !== categoryNames)
+        const items = name.forEach(element => {
+            filterArry.push(...element?.items)
+        });
+        // console.log(filterArry);
+    }
+    const name = CoffeeData.filter(data => data.category == categoryNames)
+    name.forEach(element => {
+        filterArry = element?.items;
+    });
+    // console.log(filterArry);
+
+
+    return filterArry;
+}

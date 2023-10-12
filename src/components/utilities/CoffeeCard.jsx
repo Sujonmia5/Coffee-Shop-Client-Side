@@ -1,12 +1,20 @@
-
+import { motion } from 'framer-motion'
 const CoffeeCard = ({ item }) => {
 
     const { name, coffee_img, price } = item;
     const fixedPrice = price.toFixed(2)
     // console.log(parseInt(fixedPrice).toFixed(2));
     return (
-        <div className="max-w-[622px] h-[90px] my-4 ">
-
+        <motion.div
+            layout
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{
+                duration: 0.5,
+                delay: 0.2
+            }}
+            className="max-w-[622px] h-[90px] my-4 ">
             <div className="coffee-card mx-auto max-[1200px]:mt-20
             min-[1200px]:ml-24 relative max-w-[454px] h-full border border-secondary flex justify-end items-center p-5 sm:px-10 z-50">
                 <figure className="w-[80px] h-[80px] menu-img absolute 
@@ -19,7 +27,7 @@ const CoffeeCard = ({ item }) => {
                 </h1>
                 <p className="text-primary font-jost font-semibold">$ {fixedPrice}</p>
             </div>
-        </div>
+        </motion.div>
     );
 };
 
