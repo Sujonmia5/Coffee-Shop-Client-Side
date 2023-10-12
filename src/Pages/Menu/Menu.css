@@ -1,0 +1,12 @@
+.tab-buttons button {
+    text-transform: uppercase;
+    color: #6c6c6c;
+    width: auto;
+    background: none;
+    transition: all 0.3s ease;
+}
+
+.tab-buttons button.active {
+    background-color: var(--primary-color);
+    color: white;
+}

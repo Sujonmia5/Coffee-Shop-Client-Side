@@ -10,8 +10,8 @@ const WCMAbout = () => {
                     <br />
                     IN YOUR CITY</h2>
             </div>
-            <div className='grid grid-cols-3  gap-4'>
-                <div className="WC_card max-w-md h-max p-2 border rounded">
+            <div className='grid grid-cols-1 md:grid-cols-2 min-[1200px]:grid-cols-3  gap-4'>
+                <div className="WC_card max-w-md h-max p-2 border rounded mx-auto">
                     <div className="px-11 py-12">
                         <div className='flex flex-col justify-center items-center mb-7 relative'>
                             <figure>
@@ -32,7 +32,7 @@ const WCMAbout = () => {
                         </div>
                     </div>
                 </div>
-                <div className="WC_card max-w-md h-max p-2 border rounded">
+                <div className="WC_card max-w-md h-max p-2 border rounded mx-auto">
                     <div className="px-11 py-12">
                         <div className='flex flex-col justify-center items-center mb-7 relative'>
                             <figure className='relative'>
@@ -54,7 +54,7 @@ const WCMAbout = () => {
                         </div>
                     </div>
                 </div>
-                <div className="WC_card max-w-md h-max p-2 border rounded">
+                <div className="WC_card max-w-md h-max p-2 border rounded mx-auto">
                     <div className="px-11 py-12">
                         <div className='flex flex-col justify-center items-center mb-7 relative'>
                             <figure className='relative'>

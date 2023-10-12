@@ -2,16 +2,16 @@ import { BsCheck2All } from "react-icons/bs";
 
 const AboutCafena = () => {
     return (
-        <div className="bg_Cafna_Hero py-10 px-20">
-            <div className="flex items-center max-w-[1400px] px-5">
-                <div className="w-1/2 relative flex justify-center items-center">
-                    <figure>
+        <div className="bg_Cafna_Hero py-10 md:px-20">
+            <div className=" min-[1200px]:flex items-center max-w-[1400px] px-5">
+                <div className="min-[1200px]:w-1/2 relative flex justify-center items-center">
+                    <figure className="flex flex-col items-center justify-center">
                         <img src="/src/assets/man/download.png" alt="" />
-                        <img className="absolute -left-5 bottom-0 w-64  h-64" src="/src/assets/more/6.png" alt="" />
+                        <img className="sm:absolute min-[1200px]:-left-5 bottom-0 w-56 sm:w-64 h-56 sm:h-64" src="/src/assets/more/6.png" alt="" />
                     </figure>
                 </div>
-                <div className="w-1/2">
-                    <div className="ml-16">
+                <div className="min-[1200px]:w-1/2">
+                    <div className="min-[1200px]:ml-16">
                         <p className="font-jost uppercase text-white tracking-widest my-5 bg-primary inline-block px-3 py-1 rounded ">ABOUT CAFENA</p>
                         <h2 className="text-4xl md:text-6xl font-bebas mb-6">ONE OF THE BEST COFFEE HOUSE IN YOUR HOME TOWN</h2>
                         <p className="text-lg font-jost text-[#a7a7a7] my-5">Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibhtincidunt.</p>
