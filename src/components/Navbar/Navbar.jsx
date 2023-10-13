@@ -24,7 +24,7 @@ const Navbar = () => {
                             <a href="/menu">Menu</a>
                         </li>
                         <li>
-                            <a href="/">Reservation</a>
+                            <a href="/reservation">Reservation</a>
                         </li>
                         <li className='block min-[1200px]:hidden'>
                             <a href="/">Pages</a>

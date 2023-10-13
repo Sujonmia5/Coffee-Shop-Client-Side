@@ -3,6 +3,8 @@ import { FilterData } from "../utilities/Function/Function";
 // import CoffeeCard from "../utilities/CoffeeCard";
 import { AnimatePresence, motion } from "framer-motion"
 import CoffeeCard from "../utilities/CoffeeCard";
+import Card from "../utilities/Card";
+import PrimaryButton from "../utilities/Button/PrimaryButton";
 
 const MenuItem = () => {
     const [Categories, setCategories] = useState([])
@@ -53,7 +55,7 @@ const MenuItem = () => {
                 <p className="text-sm text-white bg-primary px-3 py-1 rounded inline-block uppercase tracking-widest">Menu</p>
                 <h2 className="text-4xl md:text-6xl font-bebas my-5">OUR POPULAR MENU</h2>
                 <div className="w-full flex justify-center items-center">
-                    <div className="tab-buttons flex justify-around gap-x-4 mx-auto border border-[#a7a7a7] h-10 rounded-md">
+                    <div className=" tab-buttons flex flex-wrap justify-around gap-4 mx-auto md:border border-[#a7a7a7] h-10 rounded-md">
                         {
                             Categories.map(category => <button key={category._id}
                                 onClick={() => handleTabClick(category?._id)}
@@ -66,13 +68,16 @@ const MenuItem = () => {
                 </div>
             </div>
             <AnimatePresence>
-                <div className="grid grid-cols-2 gap-5">
+                <div className="grid md:grid-cols-2 gap-5 mt-24 sm:my-10 ">
                     {
                         filterCoffee.map((coffee, i) =>
-                            <CoffeeCard
-                                key={i} item={coffee} />
+                            <Card coffee={coffee} key={i} />
                         )
                     }
+
+                </div>
+                <div className="w-full flex justify-center mt-10 mb-28">
+                    <PrimaryButton style={'font-semibold text-white tracking-widest'} title={'Load more'}></PrimaryButton>
                 </div>
             </AnimatePresence>
         </div>
