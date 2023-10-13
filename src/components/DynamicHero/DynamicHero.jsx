@@ -2,7 +2,7 @@
 import './DynamicHero.css'
 
 const DynamicHero = ({ Path }) => {
-    console.log(Path);
+    // console.log(Path);
     return (
         <div className='dynamic_hero_bg h-64 md:h-96 relative'>
             <div className='z-50 absolute top-0'>

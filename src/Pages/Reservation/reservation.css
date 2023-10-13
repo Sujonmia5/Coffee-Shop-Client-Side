@@ -1,0 +1,42 @@
+.bg_reservation {
+    background-image: url('/src/assets/bg/hero-shape-2-1.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: auto;
+}
+
+.btn_submit {
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    position: relative;
+    overflow-y: hidden;
+    background-color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+    transition: all 0.4s ease-in-out;
+    color: white;
+    z-index: 1;
+}
+
+.btn_submit::after {
+    position: absolute;
+    content: ' ';
+    width: 0;
+    height: 45px;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    background: var(--gray-color);
+    overflow: hidden;
+    border-radius: 2px;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.btn_submit:hover {
+    border-color: var(--gray-color);
+}
+
+.btn_submit:hover::after {
+    width: 100%;
+    left: 0;
+}

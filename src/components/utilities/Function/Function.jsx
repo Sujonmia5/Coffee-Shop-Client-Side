@@ -26,7 +26,8 @@ export const FilterData = (CoffeeData, categoryNames = 'all') => {
     // console.log(categoryNames);
     if (categoryNames == 'all') {
         const name = CoffeeData.filter(data => data.category !== categoryNames)
-        const items = name.forEach(element => {
+        console.log(name);
+        name.forEach(element => {
             filterArry.push(...element?.items)
         });
         // console.log(filterArry);
