@@ -1,0 +1,8 @@
+.blog_card:hover #image {
+    transform: scale(1.05);
+}
+
+.blog_link::after {
+    right: -40px;
+    background-color: #a7a7a7;
+}

@@ -1,8 +1,5 @@
 import { useEffect, useState } from "react";
 import { FilterData } from "../utilities/Function/Function";
-// import CoffeeCard from "../utilities/CoffeeCard";
-import { AnimatePresence, motion } from "framer-motion"
-import CoffeeCard from "../utilities/CoffeeCard";
 import Card from "../utilities/Card";
 import PrimaryButton from "../utilities/Button/PrimaryButton";
 
@@ -67,19 +64,19 @@ const MenuItem = () => {
                     </div>
                 </div>
             </div>
-            <AnimatePresence>
-                <div className="grid md:grid-cols-2 gap-5 mt-24 sm:my-10 ">
-                    {
-                        filterCoffee.map((coffee, i) =>
-                            <Card coffee={coffee} key={i} />
-                        )
-                    }
 
-                </div>
-                <div className="w-full flex justify-center mt-10 mb-28">
-                    <PrimaryButton style={'font-semibold text-white tracking-widest'} title={'Load more'}></PrimaryButton>
-                </div>
-            </AnimatePresence>
+            <div className="grid md:grid-cols-2 gap-5 mt-24 sm:my-10 ">
+                {
+                    filterCoffee.map((coffee, i) =>
+                        <Card coffee={coffee} key={i} />
+                    )
+                }
+
+            </div>
+            <div className="w-full flex justify-center mt-10 mb-28">
+                <PrimaryButton style={'font-semibold text-white tracking-widest'} title={'Load more'}></PrimaryButton>
+            </div>
+
         </div>
     );
 };
